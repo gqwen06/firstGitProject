@@ -7,3 +7,12 @@
 
 4. 提交已经添加标记的文件到本地仓库
   $ git commit -m "备注信息"
+
+5. 第一次本地代码提交到远程
+   1) 在github上有一个远程仓库
+   2) 在本地运行git romote add命令
+
+    $ git remote add origin 远程仓库的地址
+   3) 将本地代码push到远程仓库
+    $ git push -u  远程仓库分支名称  本地仓库分支名称
+    $  git push -u origin master
